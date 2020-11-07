@@ -77,7 +77,7 @@ class AirVisualCard extends HTMLElement {
         }
   
         .face {
-          border-radius: 0px 0px 0px var(--ha-card-border-radius);
+          border-radius:  var(--ha-card-border-radius) 0px 0px var(--ha-card-border-radius);
           grid-row-start: 2;
           grid-row-end: 3;
           grid-column-start: 1;
